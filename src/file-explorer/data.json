@@ -1,0 +1,27 @@
+[
+  {
+    "name": "root",
+    "isFolder": true,
+    "id": 1,
+    "children": [
+      {
+        "name": "s",
+        "isFolder": true,
+        "id": 3,
+        "children": []
+      },
+      {
+        "name": "ssssss",
+        "isFolder": true,
+        "id": 4,
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "config",
+    "isFolder": true,
+    "id": 2,
+    "children": []
+  }
+]
