@@ -5,13 +5,32 @@
     "id": 1,
     "children": [
       {
-        "name": "s",
+        "name": "first",
         "isFolder": true,
         "id": 3,
-        "children": []
+        "children": [
+          {
+            "name": "1.1",
+            "isFolder": false,
+            "id": 5,
+            "children": []
+          },
+          {
+            "name": "1.2",
+            "isFolder": false,
+            "id": 6,
+            "children": []
+          },
+          {
+            "name": "1.3",
+            "isFolder": false,
+            "id": 7,
+            "children": []
+          }
+        ]
       },
       {
-        "name": "ssssss",
+        "name": "second",
         "isFolder": true,
         "id": 4,
         "children": []
@@ -20,7 +39,7 @@
   },
   {
     "name": "config",
-    "isFolder": true,
+    "isFolder": false,
     "id": 2,
     "children": []
   }
