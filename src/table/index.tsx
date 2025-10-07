@@ -59,14 +59,12 @@ export default function Table() {
   const filterItems = useMemo(() => {
     let items = [...data];
 
-    // filter first
     if (query) {
       items = items.filter((item) =>
         item.title.toLowerCase().includes(query.toLowerCase())
       );
     }
 
-    // sort next
     if (sortConfig.key && sortConfig.dir) {
       items.sort((a, b) => {
         const aVal = a[sortConfig.key as keyof DataTypes];

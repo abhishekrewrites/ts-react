@@ -10,6 +10,7 @@ import Menu from "./Menu/";
 import JobBoard from "./job-board/";
 import Table from "./table/";
 import Grid from "./reverse-grid/";
+import TodoList from "./todo-list/";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -23,6 +24,7 @@ createRoot(document.getElementById("root")!).render(
         <Route path="job-board" element={<JobBoard />} />
         <Route path="table" element={<Table />} />
         <Route path="reverse" element={<Grid />} />
+        <Route path="todo" element={<TodoList />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
