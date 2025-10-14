@@ -11,6 +11,8 @@ import JobBoard from "./job-board/";
 import Table from "./table/";
 import Grid from "./reverse-grid/";
 import TodoList from "./todo-list/";
+import ImageCarousel from "./image-carousel/";
+import MockDataTable from "./data-mock-server/";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -25,6 +27,8 @@ createRoot(document.getElementById("root")!).render(
         <Route path="table" element={<Table />} />
         <Route path="reverse" element={<Grid />} />
         <Route path="todo" element={<TodoList />} />
+        <Route path="carousel" element={<ImageCarousel />} />
+        <Route path="mock-table" element={<MockDataTable />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
