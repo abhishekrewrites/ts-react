@@ -61,8 +61,6 @@ export default function Menu() {
   if (error) return <div>{error.message}</div>;
   if (!data) return <div>No Data found</div>;
 
-  console.log(totalPrice, "totalPrice");
-
   return (
     <div>
       <h1>{data.name}</h1>
@@ -128,3 +126,67 @@ export default function Menu() {
     </div>
   );
 }
+
+// <form onSubmit={handleSubmit}>
+//     <div>
+//       {SKILLS.map((skl) => {
+//         const isChecked = formData.skills.includes(skl.value);
+//         return (
+//           <div key={skl.value}>
+//             <input
+//               id={skl.value}
+//               type="checkbox"
+//               checked={isChecked}
+//               onChange={(e) =>
+//                 setFormData((prev) => {
+//                   const skills = e.target.checked
+//                     ? [...prev.skills, skl.value]
+//                     : prev.skills.filter((v) => v !== skl.value);
+
+//                   return { ...prev, skills };
+//                 })
+//               }
+//             />
+//             <label htmlFor={skl.value}>{skl.label}</label>
+//           </div>
+//         );
+//       })}
+//     </div>
+
+//     <div>
+//       <select
+//         value={formData.country}
+//         onChange={(e) =>
+//           setFormData((prev) => ({ ...prev, country: e.target.value }))
+//         }
+//       >
+//         {COUNTRIES.map((o) => (
+//           <option key={o.value} value={o.value}>
+//             {o.label}
+//           </option>
+//         ))}
+//       </select>
+//     </div>
+
+//     <div>
+//       {GENDER.map((ge) => {
+//         return (
+//           <div key={ge.value}>
+//             <input
+//               id={ge.value}
+//               type="radio"
+//               checked={formData.gender === ge.value}
+//               onChange={(e) => {
+//                 setFormData((prv) => {
+//                   const copy = { ...prv };
+//                   return { ...copy, gender: ge.value };
+//                 });
+//               }}
+//             />
+//             <label htmlFor={ge.value}>{ge.label}</label>
+//           </div>
+//         );
+//       })}
+//     </div>
+//     <button type="submit">Add</button>
+//   </form>

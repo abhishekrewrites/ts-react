@@ -13,6 +13,7 @@ import Grid from "./reverse-grid/";
 import TodoList from "./todo-list/";
 import ImageCarousel from "./image-carousel/";
 import MockDataTable from "./data-mock-server/";
+import TicTacToe from "./tic-tac-toe/index.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -29,6 +30,7 @@ createRoot(document.getElementById("root")!).render(
         <Route path="todo" element={<TodoList />} />
         <Route path="carousel" element={<ImageCarousel />} />
         <Route path="mock-table" element={<MockDataTable />} />
+        <Route path="tic-tac" element={<TicTacToe />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
