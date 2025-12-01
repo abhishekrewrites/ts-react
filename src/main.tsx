@@ -17,6 +17,7 @@ import TicTacToe from "./tic-tac-toe/index.tsx";
 import { SnakesLadder } from "./Snakes&Ladder/index.tsx";
 import { NestedDataTable } from "./nested-table";
 import { DraggableChips } from "./DraggableChips/";
+import { SelectNested } from "./selectNested/";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -37,6 +38,7 @@ createRoot(document.getElementById("root")!).render(
         <Route path="snakes" element={<SnakesLadder />} />
         <Route path="nested-table" element={<NestedDataTable />} />
         <Route path="chips" element={<DraggableChips />} />
+        <Route path="select-nested" element={<SelectNested />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
