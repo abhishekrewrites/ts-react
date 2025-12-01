@@ -1,0 +1,122 @@
+[
+  {
+    "roll": 1,
+    "name": "Aarav Sharma",
+    "marks": {
+      "maths": 87,
+      "science": 92,
+      "english": 81,
+      "history": 76,
+      "computer": 95
+    },
+    "info": "<span style=\"color: red; font-weight: bold;\">Fail</span> <a href=\"#\" style=\"text-decoration: underline;\">Retake</a>"
+  },
+  {
+    "roll": 2,
+    "name": "Isha Verma",
+    "marks": {
+      "maths": 78,
+      "science": 85,
+      "english": 88,
+      "history": 80,
+      "computer": 91
+    },
+    "info": "<span style=\"color: red; font-weight: bold;\">Fail</span> <a href=\"#\" style=\"text-decoration: underline;\">Retake</a>"
+  },
+  {
+    "roll": 3,
+    "name": "Rohan Singh",
+    "marks": {
+      "maths": 90,
+      "science": 89,
+      "english": 84,
+      "history": 73,
+      "computer": 88
+    },
+    "info": "<span style=\"color: red; font-weight: bold;\">Fail</span> <a href=\"#\" style=\"text-decoration: underline;\">Retake</a>"
+  },
+  {
+    "roll": 4,
+    "name": "Priya Gupta",
+    "marks": {
+      "maths": 82,
+      "science": 79,
+      "english": 91,
+      "history": 87,
+      "computer": 90
+    },
+    "info": "<span style=\"color: red; font-weight: bold;\">Fail</span> <a href=\"#\" style=\"text-decoration: underline;\">Retake</a>"
+  },
+  {
+    "roll": 5,
+    "name": "Kabir Mehta",
+    "marks": {
+      "maths": 76,
+      "science": 88,
+      "english": 80,
+      "history": 72,
+      "computer": 85
+    },
+    "info": "<span style=\"color: red; font-weight: bold;\">Fail</span> <a href=\"#\" style=\"text-decoration: underline;\">Retake</a>"
+  },
+  {
+    "roll": 6,
+    "name": "Sanya Kapoor",
+    "marks": {
+      "maths": 94,
+      "science": 90,
+      "english": 89,
+      "history": 85,
+      "computer": 97
+    },
+    "info": "<span style=\"color: red; font-weight: bold;\">Fail</span> <a href=\"#\" style=\"text-decoration: underline;\">Retake</a>"
+  },
+  {
+    "roll": 7,
+    "name": "Dev Malhotra",
+    "marks": {
+      "maths": 70,
+      "science": 75,
+      "english": 78,
+      "history": 69,
+      "computer": 82
+    },
+    "info": "<span style=\"color: red; font-weight: bold;\">Fail</span> <a href=\"#\" style=\"text-decoration: underline;\">Retake</a>"
+  },
+  {
+    "roll": 8,
+    "name": "Meera Nair",
+    "marks": {
+      "maths": 88,
+      "science": 91,
+      "english": 93,
+      "history": 90,
+      "computer": 94
+    },
+    "info": "<span style=\"color: red; font-weight: bold;\">Fail</span> <a href=\"#\" style=\"text-decoration: underline;\">Retake</a>"
+  },
+  {
+    "roll": 9,
+    "name": "Arjun Patel",
+    "marks": {
+      "maths": 81,
+      "science": 83,
+      "english": 77,
+      "history": 75,
+      "computer": 89
+    },
+    "info": "<span style=\"color: red; font-weight: bold;\">Fail</span> <a href=\"#\" style=\"text-decoration: underline;\">Retake</a>"
+  },
+  {
+    "roll": 10,
+    "name": "Tara Shetty",
+    "marks": {
+      "maths": 92,
+      "science": 94,
+      "english": 90,
+      "history": 88,
+      "computer": 96
+    },
+    "info": "<span style=\"color: red; font-weight: bold;\">Fail</span> <a href=\"#\" style=\"text-decoration: underline;\">Retake</a>"
+  }
+]

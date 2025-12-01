@@ -14,6 +14,9 @@ import TodoList from "./todo-list/";
 import ImageCarousel from "./image-carousel/";
 import MockDataTable from "./data-mock-server/";
 import TicTacToe from "./tic-tac-toe/index.tsx";
+import { SnakesLadder } from "./Snakes&Ladder/index.tsx";
+import { NestedDataTable } from "./nested-table";
+import { DraggableChips } from "./DraggableChips/";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -31,6 +34,9 @@ createRoot(document.getElementById("root")!).render(
         <Route path="carousel" element={<ImageCarousel />} />
         <Route path="mock-table" element={<MockDataTable />} />
         <Route path="tic-tac" element={<TicTacToe />} />
+        <Route path="snakes" element={<SnakesLadder />} />
+        <Route path="nested-table" element={<NestedDataTable />} />
+        <Route path="chips" element={<DraggableChips />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
