@@ -11,8 +11,10 @@ export type JsonTypes = {
 
 function FileExplorer() {
   const [data, setData] = useState<JsonTypes[]>(json);
+
   return (
-    <div id="kk">
+    <div className="p-10">
+      <h1 className="text-xl font-bold mb-4">File Explorer</h1>
       <View data={data} setData={setData} />
     </div>
   );

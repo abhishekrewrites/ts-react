@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "root",
+    "parent": null,
+    "isChecked": false,
+    "children": [
+      {
+        "id": 2,
+        "name": "files",
+        "parent": null,
+        "isChecked": true,
+        "children": [
+          {
+            "id": 3,
+            "name": "veg",
+            "parent": null,
+            "isChecked": true,
+            "children": []
+          },
+          {
+            "id": 4,
+            "name": "non-veg",
+            "parent": null,
+            "isChecked": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "police",
+        "parent": null,
+        "isChecked": true,
+        "children": []
+      }
+    ]
+  }
+]

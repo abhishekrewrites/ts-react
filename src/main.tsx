@@ -18,6 +18,7 @@ import { SnakesLadder } from "./Snakes&Ladder/index.tsx";
 import { NestedDataTable } from "./nested-table";
 import { DraggableChips } from "./DraggableChips/";
 import { SelectNested } from "./selectNested/";
+import NestedCheckbox from "./nested-checkbox/index.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -39,6 +40,7 @@ createRoot(document.getElementById("root")!).render(
         <Route path="nested-table" element={<NestedDataTable />} />
         <Route path="chips" element={<DraggableChips />} />
         <Route path="select-nested" element={<SelectNested />} />
+        <Route path="nested-check" element={<NestedCheckbox />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
